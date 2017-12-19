@@ -174,7 +174,7 @@ Returns the root `IPublishedContent` entity from the Media tree.
 Given a node ID, returns a `dynamic` object, representing a single `IPublishedContent` Member profile
 
     @{
-        var member = Umbraco.TypedMember(1234);
+        var member = Umbraco.Member(1234);
         var email = member.Email;
         var custom = member.MyCustomPropertyAlias;
     }
